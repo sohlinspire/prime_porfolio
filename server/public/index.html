@@ -1,15 +1,86 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <script src="vendors/angular.min.js" charset="utf-8"></script>
-    <script src="scripts/client.js" charset="utf-8"></script>
-    <link rel="stylesheet" href="styles.css">
-    <title>Angular Peer Intro</title>
-  </head>
-  <body ng-app="myApp">
-    <div ng-controller="displayController as display">
-      <h1>Welcome to My Portfolio</h1>
-    </div>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="vendors/css/bootstrap.css">
+  <script src="vendors/angular.min.js" charset="utf-8"></script>
+  <script src="scripts/client.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>David Kruger's Portfolio</title>
+  <style>
+  body, html {
+    height: 100%;
+  }
+
+  .parallax {
+    /* The image used */
+    background-image: url("images/ibc_bg.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax2 {
+    /* The image used */
+    background-image: url("images/fd_background.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax3 {
+    /* The image used */
+    background-image: url("images/MO_background.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  </style>
+</head>
+
+<body ng-app="myApp" ng-controller="displayController as display">
+
+  <div class="parallax"></div>
+
+  <div style="height:1000px;background-color:gray;font-size:36px;color:white;font-family:'cochin'">
+Welcome to My Portfolio
+  </div>
+
+  <div class="parallax2"></div>
+
+  <div style="height:1000px;background-color:gray;font-size:36px;color:white;font-family:'cochin'">
+Welcome to My Portfolio
+  </div>
+
+  <div class="parallax3"></div>
+
+  <div style="height:1000px;background-color:gray;font-size:36px;color:white;font-family:'cochin'">
+      <img src="images/david1.png">
+  </div>
+
+</body>
+
+<!-- <div>
+
+  <img src="images/draft_first.png">
+  <img src="images/mobility4all.png">
+</div> -->
+
 </html>
