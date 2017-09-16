@@ -1,0 +1,25 @@
+{
+  "name": "angular-intro-with-peer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohlinspire/angular-intro-with-peer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sohlinspire/angular-intro-with-peer/issues"
+  },
+  "homepage": "https://github.com/sohlinspire/angular-intro-with-peer#readme",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}
