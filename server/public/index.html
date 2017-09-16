@@ -9,18 +9,7 @@
   </head>
   <body ng-app="myApp">
     <div ng-controller="displayController as display">
-      <h1>{{display.name}}</h1>
-      <input type="text" ng-model="nameBox">
-      <!-- <p>{{nameBox}}</p> -->
-      <h1>{{display.message}}</h1>
-      <input type="text" ng-model="messageBox">
-      <!-- <p>{{messageBox}}</p> -->
-      <button ng-click="display.addPerson(nameBox, messageBox)">Submit</button>
-      <div ng-repeat="person in display.people">
-        <p>{{person.nameBox}}</p>
-        <p>{{person.messageBox}}</p>
-        <button ng-click="display.delete($index)">Remove</button>
-      </div>
+      <h1>Welcome to My Portfolio</h1>
     </div>
   </body>
 </html>
