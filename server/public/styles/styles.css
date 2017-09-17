@@ -1,72 +1,79 @@
-/* ============================================================
-  PRIMARY STRUCTURE
-============================================================ */
-.container {
-  max-width: 960px;
-  margin: 0 auto;
+.stroke {
+  text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
 }
 
-/* ============================================================
-  SECTIONS
-============================================================ */
-section.module:last-child {
-  margin-bottom: 0;
+body, html {
+  height: 100%;
 }
-section.module h2 {
-  margin-bottom: 40px;
-  font-family: "Roboto Slab", serif;
-  font-size: 30px;
+
+div {
+  text-align: left;
+  font-size: 54px;
+  padding-top: 125px;
+  padding-left: 10px;
+  color: lightblue;
+  font-family: AppleGothic;
+  font-weight: lighter;
 }
-section.module p {
-  margin-bottom: 40px;
-  font-size: 16px;
-  font-weight: 300;
-}
-section.module p:last-child {
-  margin-bottom: 0;
-}
-section.module.content {
-  padding: 40px 0;
-}
-section.module.parallax {
-  padding: 240px 0;
-  background-position: 0 0;
-}
-section.module.parallax h1 {
-  color: #1e1e1e;
-  font-size: 48px;
-  line-height: 1;
-  font-weight: 700;
+
+p {
+  margin: 0;
+  padding: 50px;
   text-align: center;
-  text-transform: uppercase;
-  text-shadow: 0 0 10px white;
-}
-section.module.parallax-1 {
-  background-image: url("../img/demo/pattern1.png");
-}
-section.module.parallax-2 {
-  background-image: url("../img/demo/pattern2.png");
-}
-section.module.parallax-3 {
-  background-image: url("../img/demo/pattern3.png");
+  background-color: lightblue;
+  font-size: 36px;
+  font-family: 'cochin';
 }
 
-@media all and (min-width: 600px) {
-  section.module h2 {
-    font-size: 42px;
-  }
-  section.module p {
-    font-size: 20px;
-  }
-  section.module.parallax {
-    padding: 300px 0;
-  }
-  section.module.parallax h1 {
-    font-size: 96px;
-  }
+.p2 {
+  height:400px;
 }
-@media all and (min-width: 960px) {
-  section.module.parallax h1 {
-    font-size: 160px;
-  }
+
+.p3 {
+  height:800px
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("/images/ibc_bg.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  /* The image used */
+  background-image: url("/images/fd_background.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax3 {
+  /* The image used */
+  background-image: url("/images/MO_background.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
